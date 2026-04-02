@@ -174,6 +174,20 @@
       overflow: hidden;
       background: var(--ivory);
     }
+    .hero-bg-img {
+      position:absolute;inset:0;width:100%;height:100%;
+      object-fit:cover;object-position:center;
+      opacity:0.12;pointer-events:none;
+    }
+    .sec-img {
+      width:100%;max-width:600px;margin:32px auto 0;
+      border-radius:16px;display:block;
+      box-shadow:0 4px 24px rgba(0,0,0,0.08);
+    }
+    .sec-img-full {
+      width:100%;max-width:800px;margin:32px auto 0;
+      border-radius:16px;display:block;
+    }
 
     /* 背景の丸 */
     .hero::before {
@@ -1235,6 +1249,7 @@
 
 <!-- ===== HERO ===== -->
 <section class="hero" aria-label="メインビジュアル">
+  <img class="hero-bg-img" src="images/chinen-hero.jpg" alt="" loading="eager">
   <div class="hero-inner">
 
     <div class="hero-left">
@@ -1292,6 +1307,7 @@
       忙しくて整体<span class="sm">に</span>行けない、<br>
       そのまま<span class="sm">に</span>していませんか？
     </h2>
+    <img class="sec-img reveal" src="images/chinen-worry.jpg" alt="デスクワークによる腰痛に悩む方" loading="lazy">
     <p class="sec-lead reveal">時間・移動・プライバシー——整体を諦める理由を、出張整体で全部解決します。</p>
     <div class="worry-grid">
       <div class="worry-card reveal">
@@ -1322,6 +1338,7 @@
       出張整体<span class="sm">だから</span>、<br>
       できること<span class="sm">が</span>あります。
     </h2>
+    <img class="sec-img reveal" src="images/chinen-visit.jpg" alt="施術ベッドを持って訪問する整体師" loading="lazy">
     <div class="feat-grid">
       <div class="feat-card reveal">
         <div class="feat-num">01</div>
@@ -1354,6 +1371,7 @@
     <h2 id="menu-h" class="reveal">
       あなた<span class="sm">に</span>合った<br>コース<span class="sm">を</span>選べます
     </h2>
+    <img class="sec-img reveal" src="images/chinen-massage.jpg" alt="丁寧な手技による施術" loading="lazy">
     <div class="menu-grid">
       <div class="menu-card reveal">
         <span class="menu-tag">人気 No.1</span>
@@ -1471,6 +1489,7 @@
       お電話一本<span class="sm">から、</span><br>
       簡単4ステップ
     </h2>
+    <img class="sec-img-full reveal" src="images/chinen-flow.jpg" alt="ご利用の流れ 4ステップ" loading="lazy">
     <div class="flow-list">
       <div class="flow-item reveal">
         <div class="flow-step">1</div>
@@ -1636,6 +1655,7 @@
       まず、お電話一本。<br>
       あなた<span class="sm">の</span>体<span class="sm">を</span>整え<span class="sm">に</span>行きます。
     </h2>
+    <img class="sec-img reveal" src="images/chinen-relax.jpg" alt="施術後のリラックスした時間" loading="lazy" style="margin-bottom:24px;">
     <p class="sec-lead">相談だけでもOK。宇美町・粕屋エリアの方、お気軽にお電話ください。</p>
     <div class="cta-box">
       <p class="cta-box-label">📞 予約・お問い合わせ</p>
